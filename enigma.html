@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <!-- Icons -->
+     <link
+     rel="stylesheet"
+     href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+   />
+   <!-- Icons -->
+    <title>Qlqjxhp</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="icon_capacete_site.png" />
+    <script src="app.js"></script>
+  </head>
+
+  <body class="corpo">
+    <header>
+      <div class="interface">
+        <nav class="menu-desk">
+          <ul>
+            <li>
+              <a href="index.html" class="logo"
+                ><img src="Icon_Barco.png" alt="logo inmove"
+              /></a>
+              <a href="inicio.html">"Inicio"</a>
+              <a href="Odisseia.html">"A Odisseia"</a>
+              <a href="Deuses.html">"Deuses"</a>
+              <a href="enigma.html">"Hqljpd"</a>
+            </li>
+          </ul>
+        </nav>
+         <!-- Menu Mobile -->
+         <div class="btn-abrir-menu-mobile" id="botão-abrir" onclick="abrir()">
+          <i class="bi bi-list"></i>
+        </div>
+
+        <div class="menu-mobile" id="menu-mobile" onclick="fechar()">
+          <div class="btn-fechar" id="btn_fechar">
+            <i class="bi bi-x-lg"></i>
+          </div>
+          <nav>
+            <ul>
+              <li>
+                <a href="index.html" class="logo"
+                  ><img src="Icon_Barco.png" alt="logo inmove"
+                /></a>
+                <a href="inicio.html">"Inicio"</a>
+                <a href="Odisseia.html">"A Odisseia"</a>
+                <a href="Deuses.html">"Deuses"</a>
+                <a href="enigma.html">"Hqljpd"</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <!-- Menu Mobile -->
+        <div class="overlay-mobile" onclick="fechar_overlay()"></div>
+      </div>
+      </div>
+    </header>
+    <main>
+      <br /><br />
+      <p class="titulo_introdutorio_enigma">
+        "Uma <span class="span_atena">chave antiga</span>, usada para esconder,<br />
+        Onde letras embaralhadas estão, como uma <span class="span_atena">cifra harmônica</span>, mas não podem se entender. <br />
+        Movimento simples, mas com grande poder, Cubro as palavras para ninguém
+        as ver. <br />
+        para descobrir oque está adiante <span class="span_atena">necessita me descobrir antes!</span>"
+      </p>
+
+      <section class="enigma">
+        <div class="interface">
+          <div class="flex">
+            <div class="txt_enigma_1">
+              <p>
+                "Olhe atentamente, mas não veja diretamente, Há um segredo
+                escondido no que <span class="span_atena">hvwá qr wrsr</span>. Desvendar o código exige apenas
+                atenção, Pois o mistério está logo ali, à vista, na sua mão, só
+                basta atenção."
+              </p>
+              <input type="text" placeholder="Resposta..." class="resposta" id="resposta"/>
+              <button class="botão" onclick="enviar_resposta()">ENVIAR</button>
+              <p id="resultado"></p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+        <div class="interface">
+          <div class="rodape borda">
+            <div class="flex">
+              <div class="logo-footer">
+                <img src="cavalo-de-troia.png" alt="" />
+                <img src="espada.png" alt="" />
+                <img src="roma.png" alt="" />
+                <img src="bussola.png" alt="" />
+                <img src="escudo.png" alt="" />
+                <img src="relogio-do-sol.png" alt="" />
+                <img src="olimpo.png" alt="" />
+                <img src="sereia.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+  </body>
+</html>
